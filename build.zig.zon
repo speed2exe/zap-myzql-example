@@ -1,0 +1,19 @@
+.{
+    .name = "zap-myzql-example",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zap = .{
+            .url = "https://github.com/zigzap/zap/archive/refs/tags/v0.9.1.tar.gz",
+            .hash = "12200223d76ab6cd32f75bc2e31463b0b429bb5b2b6fa4ce8f68dea494ca1ec3398b",
+        },
+        .myzql = .{
+            .url = "https://github.com/speed2exe/myzql/archive/refs/tags/0.13.2.tar.gz",
+            .hash = "1220fabc6675903f26431b0f9ca97f5d0f7ee69dea89586300d35a7ba370d4e0a356",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
